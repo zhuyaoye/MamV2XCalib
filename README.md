@@ -29,6 +29,7 @@ pip install -e mamba
 You can download pretrained checkpoints from the following Google Drive folder:  
 👉 [Google Drive - MamV2XCalib Checkpoints](https://drive.google.com/drive/folders/1go9sdBDD6sQvSsapzB3Z3F7ud-PfoTHF)
 
+*Note: to be released*
 
 ---
 
@@ -38,8 +39,8 @@ You can download pretrained checkpoints from the following Google Drive folder:
 You may refer to the following datasets for download and preparation:
 
 - **[DAIR-V2X](https://github.com/AIR-THU/DAIR-V2X)**: A large-scale dataset for vehicle-infrastructure cooperation perception tasks.  
-- **[DAIR-V2X-Seq](https://github.com/AIR-THU/DAIR-V2X-Seq)**: Sequence-level V2X dataset for spatiotemporal modeling.  
-- **[TUMTraf A9 Dataset](https://innovation-mobility.com/en/project-providentia/a9-dataset/)**: Real-world traffic scene dataset from German Autobahn A9.
+- **[V2X-Seq](https://github.com/AIR-THU/DAIR-V2X-Seq)**: Sequence-level V2X dataset for spatiotemporal modeling.  
+- **[TUMTraf Dataset](https://innovation-mobility.com/en/project-providentia/a9-dataset/)**: Real-world traffic scene dataset.
 
 ### Evaluation
 - Modify the config and dataset path in `evaluate_calib_mam.py` according to your dataset.  
